@@ -1,0 +1,80 @@
+    .produtos{
+        width: 70vw;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .titulos{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .titulos h2{
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-family: var(--font-title);
+    color: var(--background);
+    }
+ .titulos p{
+    font-size: 1.1rem;
+    color: #000000;
+    margin-top: 30px;
+ }
+
+ .produtos_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    color: var(--background);
+ }
+
+ .card{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+
+ .card-image {
+    position: relative;
+    background:#f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+ }
+
+ .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: scale (1.05);
+ }
+ 
+ .badge-desconto{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--primary-color);
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+ }
+
+ .badge-venda{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--constrast);
+    color: var(--background);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
